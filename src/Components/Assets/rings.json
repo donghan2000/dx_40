@@ -1,0 +1,12 @@
+{
+    "type": "rings",
+    "circles": [
+        {
+            "country": "Singapore",
+            "city": "Singapore",
+            "lat": "1.290270",
+            "lng": "103.851959",
+            "RepeatPeriod": 3000
+        }
+    ]
+}

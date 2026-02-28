@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<meta http-equiv="refresh" content="5;url=http://donghan.co">
+
+<head>
+    <style>
+        body {
+            background-color: #1d1d1d;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+
+        .success-box {
+            border: 1px solid #D61424;
+            background-color: #1d1d1d;
+            color: white;
+            padding: 10px;
+            width: 400px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 50px;
+
+        }
+
+        .success-box h1 {
+            color: #D61424;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="success-box">
+        <h1>Thank you for sending a message</h1>
+        <p>I will contact you very soon</p>
+        <p>This page will redirect back to the homepage in 5 seconds.</p>
+    </div>
+
+    <script>
+        setTimeout(function () {
+            window.location.href = "http://donghan.co";
+        }, 5000); // 5000 milliseconds = 5 seconds
+    </script>
+</body>
+
+</html>

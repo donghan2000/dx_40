@@ -1,0 +1,165 @@
+{
+    "type": "Map",
+    "specifics": [
+        {
+            "text": "SG",
+            "size": 1.0,
+            "country": "Singapore",
+            "city": "Singapore",
+            "lat": "1.3632760728895796",
+            "lng": "103.851959"
+        },
+        {
+            "text": "JPN",
+            "size": 1.0,
+            "country": "Japan",
+            "city": "Tokyo",
+            "lat": "35.69863036294861",
+            "lng": "139.77302256455548"
+        },
+        {
+            "text": "UA",
+            "size": 1.0,
+            "country": "Ukraine",
+            "city": "Kyiv",
+            "lat": "49.80505218038504",
+            "lng": "29.894623525908873"
+        },
+        {
+            "text": "CA",
+            "size": 1.0,
+            "country": "Canada",
+            "city": "Ottawa",
+            "lat": "59.60075697697586",
+            "lng": "-111.13176201248416"
+        },
+        {
+            "text": "BR",
+            "size": 1.0,
+            "country": "Brazil",
+            "city": "Brasília",
+            "lat": "-8.33627010266235",
+            "lng": "-54.4005318904457"
+        },
+        {
+            "text": "UK",
+            "size": 1.0,
+            "country": "United Kingdom",
+            "city": "London",
+            "lat": "54.283370495213944",
+            "lng": "-5.218531358196322"
+        },
+        {
+            "text": "MG",
+            "size": 1.0,
+            "country": "Madagascar",
+            "city": "Antananarivo",
+            "lat": "-19.678202713275024",
+            "lng": "45.35836231750456"
+        },
+        {
+            "text": "KR",
+            "size": 1.0,
+            "country": "South Korea",
+            "city": "Seoul",
+            "lat": "38.35024446467103",
+            "lng": "126.19803356134965"
+        },
+        {
+            "text": "AU",
+            "size": 1.0,
+            "country": "Australia",
+            "city": "Canberra",
+            "lat": "-23.51840727040403",
+            "lng": "132.63260321510816"
+        },
+        {
+            "text": "ZA",
+            "size": 1.0,
+            "country": "South Africa",
+            "city": "ZA",
+            "lat": "-29.436450679303945",
+            "lng": "24.43711472657204"
+        },
+        {
+            "text": "GL",
+            "size": 1.0,
+            "country": "Greenland",
+            "city": "Nuuk",
+            "lat": "70.53342514805352",
+            "lng": "-42.71131917220046"
+        },
+        {
+            "text": "US",
+            "size": 1.0,
+            "country": "United States",
+            "city": "Washington DC",
+            "lat": "39.183974856086465",
+            "lng": "-103.1198947869458"
+        },
+        {
+            "text": "NZ",
+            "size": 1.0,
+            "country": "New Zealand",
+            "city": "Wellington",
+            "lat": "-42.761745322319406",
+            "lng": "172.37028456967857"
+        },
+        {
+            "text": "CN",
+            "size": 1.0,
+            "country": "China",
+            "city": "Beijing",
+            "lat": "37.57941188785364",
+            "lng": "97.91366868917952"
+        },
+        {
+            "text": "TD",
+            "size": 1.0,
+            "country": "Chad",
+            "city": "N'Djamena",
+            "lat": "17.85622727244593",
+            "lng": "18.497487516565656"
+        },
+        {
+            "text": "Pacific",
+            "size": 1.0,
+            "country": "North Pacific Ocean",
+            "city": "Ocean",
+            "lat": "19.175649",
+            "lng": "-160.313502"
+        },
+        {
+            "text": "Pacific",
+            "size": 1.0,
+            "country": "South Pacific Ocean",
+            "city": "Ocean",
+            "lat": "-28.344614",
+            "lng": "-109.055868"
+        },
+        {
+            "text": "Atlantic",
+            "size": 1.0,
+            "country": "North Atlantic Ocean",
+            "city": "Ocean",
+            "lat": "34.690398",
+            "lng": "-38.641782"
+        },
+        {
+            "text": "Atlantic",
+            "size": 1.0,
+            "country": "South Atlantic Ocean",
+            "city": "Ocean",
+            "lat": "-30.653707",
+            "lng": "-14.735535"
+        },
+        {
+            "text": "Indian",
+            "size": 1.0,
+            "country": "Indian Ocean",
+            "city": "Ocean",
+            "lat": "-1.732990366593313",
+            "lng": " 78.35808264377339"
+        }
+    ]
+}
