@@ -48,41 +48,42 @@ export default function Story() {
                 <p
                   className={`about-p-left ${addClass ? "animate__animated animate__jackInTheBox animate__delay-1s" : ""}`}
                 >
-                  Welcome to my portfolio site. I am an aspiring junior web
-                  developer with a passion for the field. My expertise is in
-                  Javascript and CSS, and I am currently learning React and Node
-                  frameworks. I have basic knowledge of PHP and SQL.
+                  Welcome to my portfolio site. I am a passionate designer who
+                  enjoys creating visual ideas and turning them into meaningful
+                  designs. I have skills in both 2D and 3D, which help me bring
+                  creativity to my work. Designing is not just my skill but also
+                  my passion, and I am always eager to learn and grow in this
+                  field.
                 </p>
 
                 <p
-                  className={`about-p-right ${addClass ? "animate__animated animate__jackInTheBox animate__delay-2s" : ""}`}
+                  className={`about-p-left ${addClass ? "animate__animated animate__jackInTheBox animate__delay-2s" : ""}`}
                 >
-                  My hobbies include playing games, reading light novels, and
-                  watching anime. I recently started learning Japanese on my own
-                  with the goal of gaining a basic understanding.
+                  My hobbies include playing games, watching anime and drawing.
                 </p>
 
                 <p
                   className={`about-p-left ${addClass ? "animate__animated animate__jackInTheBox animate__delay-3s" : ""}`}
                 >
                   {" "}
-                  I am continuously learning new web development techniques and
-                  look forward to collaborating with those reading this.
+                  I am always eager to learn and improve my craft to help better
+                  myself therefore I look forward to collaborating with those
+                  reading this and creating something special together.
                 </p>
               </div>
             </div>
           </div>
 
-          <div
+          {/* <div
             className={`about-canvas ${addClass ? "animate__animated animate__fadeIn" : ""}`}
           >
-            {/* {inView && (
+            {inView && (
                         <Canvas className={`${addClass ? 'animate__animated animate__fadeIn  animate__delay-1s' : ''}`}>
                             <ambientLight />
                             <RoCanvas />
                         </Canvas>
-                    )} */}
-          </div>
+                    )}
+          </div> */}
         </div>
       </section>
     </>

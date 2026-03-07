@@ -36,18 +36,18 @@ export default function Masthead() {
           <div className="masthead-text">
             <h1 className="animate__animated animate__fadeInUp">DONG XUAN</h1>
             <div className="masthead-tagline animate__animated animate__fadeInUp">
-              <p>Web Developer & UI / UX Designer</p>
+              <p>Game and UI/UX Designer</p>
             </div>
             <div className="wrap animate__animated animate__fadeInUp animate__delay-1s">
               <Link
-                to="contact"
+                to="portfolio"
                 spy={true}
                 smooth={true}
                 offset={-10}
                 duration={500}
                 className="button"
               >
-                CONTACT ME
+                MY WORKS
               </Link>
             </div>
           </div>
@@ -78,7 +78,7 @@ const Stars = React.memo((props) => {
       >
         <PointMaterial
           transparent
-          color={[0.5, 0, 0]}
+          color={[0.188, 0.835, 0.784]}
           size={0.005}
           sizeAttenuation={true}
           depthWrite={false}
@@ -103,7 +103,7 @@ const DotSphere = React.memo(({ cutterPos = [0, 0, 0], ...props }) => {
         <icosahedronGeometry args={[2, 2]} />
         <meshBasicMaterial transparent opacity={0} toneMapped={false} />
         <Edges scale={1} threshold={11.2}>
-          <lineBasicMaterial color={[1, 0, 0]} toneMapped={false} />
+          <lineBasicMaterial color={[0.188, 0.835, 0.784]} toneMapped={false} />
         </Edges>
       </mesh>
     </mesh>
