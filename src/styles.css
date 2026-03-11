@@ -191,14 +191,14 @@ a.button:hover {
 }
 
 .sidebar .logo img {
-  width: 100px;
+  width: 70px;
   transition: 0.4s;
   margin-top: 75px;
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 
 .sidebar.open .logo img {
-  width: 200px;
+  width: 100px;
   margin-top: 0px;
   margin-left: 12px;
 }

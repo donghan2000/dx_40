@@ -80,7 +80,7 @@ function NavBar() {
       <div className={navOpen ? "sidebar open" : "sidebar"}>
         <div className="logo">
           <img src="./img/logo.png" alt="logo" />
-          <h3>Dong Han</h3>
+          <h3>Dong Xuan</h3>
         </div>
         <nav>
           <div onClick={navToggle} className="toggle">

@@ -124,11 +124,11 @@ export default function Gallery() {
             >
               My Portfolio
             </h1>
-            <p
+            {/* <p
               className={`behind-title ${addClass ? "animate__animated animate__fadeIn" : ""}`}
             >
               My Works
-            </p>
+            </p> */}
             <div
               className={`sub-title-text ${addClass ? "animate__animated animate__fadeIn" : ""}`}
             >

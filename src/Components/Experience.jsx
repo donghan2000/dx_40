@@ -38,22 +38,30 @@ export default function Experience() {
                 performance={{ max: 0.1 }}
                 shadows
                 dpr={1.5}
-                camera={{ position: [-6, 22, -15], fov: 55 }}
+                camera={{ position: [-6, 22, -15], fov: 35 }}
               >
                 {/* <Perf position="top-left" /> */}
                 <Stage />
-                {skillsets.map((skillset, i) => (
-                  <Stair
-                    key={i}
-                    rotation={[-(-Math.PI / 2), 0, i / Math.PI / 2]}
-                    position={[
-                      -(4 - Math.sin(i / 5) * (6 + 2)),
-                      i * 0.5,
-                      2 - Math.cos(i / 5) * (6 + 2),
-                    ]}
-                    textureUrl={skillset.imageUrl}
-                  />
-                ))}
+                {skillsets.map((skillset, i) => {
+                  const angle = -1.2 + i * 0.22;
+                  const radius = 7;
+
+                  const centerX = -6; // move arc right
+                  const centerZ = 3;
+
+                  return (
+                    <Stair
+                      key={i}
+                      rotation={[Math.PI / 2, 0, angle + Math.PI / 2]}
+                      position={[
+                        centerX + Math.cos(angle) * radius,
+                        i * 0.35,
+                        centerZ + Math.sin(angle) * radius,
+                      ]}
+                      textureUrl={skillset.imageUrl}
+                    />
+                  );
+                })}
               </Canvas>
             )}
           </div>
@@ -75,11 +83,11 @@ export default function Experience() {
                 </p>
               </div>
 
-              <div
+              {/* <div
                 className={`behind-title-skill ${addClass ? "animate__animated animate__fadeIn" : ""}`}
               >
                 <p>My Experiences</p>
-              </div>
+              </div> */}
 
               <div
                 className={`experiences-container ${addClass ? "animate__animated animate__fadeIn animate__delay-1s" : ""}`}
@@ -105,31 +113,18 @@ export default function Experience() {
                     <p>2021-2023</p>
                   </div>
                 </div>
-                <div className="experiences-row-2">
-                  <div className="exp-small-long">
-                    <p>SIMBA Telecom Pte Ltd</p>
+                <div className="experiences-row-1">
+                  <div className="exp-small">
+                    <p>SIMBA</p>
                     <p>2024 - Now</p>
                   </div>
+                  <div className="exp-small exp-second"></div>
                 </div>
               </div>
             </div>
             <div
               className={`skills-proficiencies-text-title ${addClass ? "animate__animated animate__fadeIn animate__delay-2s" : ""}`}
-            >
-              {/* <header>Proficiencies</header>
-
-              <div className="proficiency-graph">
-                <p className="graph-title"> Front End</p>
-                <div className="graph-colorarea"></div>
-                <div className="graph-greyarea"></div>
-              </div>
-
-              <div className="proficiency-graph second-graph">
-                <p className="graph-title"> Back End</p>
-                <div className="graph-colorarea second-color"></div>
-                <div className="graph-greyarea"></div>
-              </div> */}
-            </div>
+            ></div>
           </div>
         </div>
       </section>

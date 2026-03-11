@@ -41,7 +41,7 @@ export default function Story() {
               <div
                 className={`behind-title-left ${addClass ? "animate__animated animate__fadeIn animate__delay-1s" : ""}`}
               >
-                <p>Myself</p>
+                {/* <p>Myself</p> */}
               </div>
 
               <div className="about-bubble-p">

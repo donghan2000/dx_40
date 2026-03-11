@@ -1,60 +1,23 @@
 export const skillsets = [
-    {
-        imageUrl:
-            './img/skills/javascript.png',
-
-    }, {
-        imageUrl:
-            './img/skills/html.png',
-
-    }, {
-        imageUrl:
-            './img/skills/css.png',
-
-    }, {
-        imageUrl:
-            './img/skills/blender.png',
-
-    }, {
-        imageUrl:
-            './img/skills/bootstrap.png',
-
-    }, {
-        imageUrl:
-            './img/skills/git.png',
-
-    }, {
-        imageUrl:
-            './img/skills/jquery.png',
-
-    }, {
-        imageUrl:
-            './img/skills/mongodb.png',
-
-    }, {
-        imageUrl:
-            './img/skills/nodejs.png',
-
-    }, {
-        imageUrl:
-            './img/skills/r3f.png',
-
-    }, {
-        imageUrl:
-            './img/skills/react.png',
-
-    }, {
-        imageUrl:
-            './img/skills/uiux.png',
-
-    }, {
-        imageUrl:
-            './img/skills/vscode.png',
-
-    }, {
-        imageUrl:
-            './img/skills/xd.png',
-
-    },
-
-]
+  {
+    imageUrl: "./img/skills/photoshop.png",
+  },
+  {
+    imageUrl: "./img/skills/illustrator.png",
+  },
+  {
+    imageUrl: "./img/skills/after-effects.png",
+  },
+  {
+    imageUrl: "./img/skills/adobe-xd.png",
+  },
+  {
+    imageUrl: "./img/skills/premiere-pro.png",
+  },
+  {
+    imageUrl: "./img/skills/figma.png",
+  },
+  {
+    imageUrl: "./img/skills/maya.png",
+  },
+];
