@@ -109,14 +109,14 @@ function NavBar() {
               </Link>
             ))}
           </ul>
-          <div className="nav-title">Resume</div>
+          {/* <div className="nav-title">Resume</div>
           <ul>
             <li onClick={handleChange} className="nav-item resume-back">
               <i className="bx bxs-download"></i>
               <span className="second-set-nav">Download Resume</span>
-              {/* <i className='bx bxs-download' ></i> */}
+              <i className='bx bxs-download' ></i>
             </li>
-          </ul>
+          </ul> */}
         </nav>
       </div>
     </>
@@ -177,9 +177,9 @@ function Hamburger() {
             </li>
           ))}
 
-          <li>
+          {/* <li>
             <a onClick={handleChange}>Resume</a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
