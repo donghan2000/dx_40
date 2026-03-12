@@ -112,8 +112,8 @@ function NavBar() {
           <div className="nav-title">Resume</div>
           <ul>
             <li onClick={handleChange} className="nav-item resume-back">
-              {/* <i className="bx bxs-download"></i>
-              <span className="second-set-nav">Download Resume</span>
+              <i className="bx bxs-download"></i>
+              {/*<span className="second-set-nav">Download Resume</span>
               <i className='bx bxs-download' ></i> */}
             </li>
           </ul>
