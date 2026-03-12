@@ -32,7 +32,7 @@ function NavBar() {
   const handleChange = (e) => {
     e.preventDefault();
     window.open(
-      "https://drive.google.com/file/d/18Gi4ziyn0FeqggcuEW7wtNNRIenltbJT/view?usp=drive_link",
+      "https://drive.google.com/file/d/18IN0QSTbTb_SoK8hrzUoK5_RihXmEPPT/view?usp=sharing",
       "_blank",
     );
   };
@@ -109,14 +109,14 @@ function NavBar() {
               </Link>
             ))}
           </ul>
-          {/* <div className="nav-title">Resume</div>
+          <div className="nav-title">Resume</div>
           <ul>
             <li onClick={handleChange} className="nav-item resume-back">
-              <i className="bx bxs-download"></i>
+              {/* <i className="bx bxs-download"></i>
               <span className="second-set-nav">Download Resume</span>
-              <i className='bx bxs-download' ></i>
+              <i className='bx bxs-download' ></i> */}
             </li>
-          </ul> */}
+          </ul>
         </nav>
       </div>
     </>
@@ -141,7 +141,10 @@ function Hamburger() {
 
   const handleChange = (e) => {
     e.preventDefault();
-    window.open("http://donghan.co/Resume.pdf", "_blank");
+    window.open(
+      "https://drive.google.com/file/d/18IN0QSTbTb_SoK8hrzUoK5_RihXmEPPT/view?usp=sharing",
+      "_blank",
+    );
   };
 
   useEffect(() => {
@@ -177,9 +180,9 @@ function Hamburger() {
             </li>
           ))}
 
-          {/* <li>
+          <li>
             <a onClick={handleChange}>Resume</a>
-          </li> */}
+          </li>
         </ul>
       </nav>
     </div>
